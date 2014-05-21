@@ -1,0 +1,16 @@
+{
+  "name": "paradox-tm-grunt",
+  "version": "0.0.0",
+  "description": "test",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "takumaro",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-cssmin": "^0.9.0"
+  }
+}

@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+$fs10: 1.0rem;
+$fs11: 1.1rem;
+$fs12: 1.2rem;
+$fs13: 1.3rem;
+$fs14: 1.4rem;
+$fs15: 1.5rem;
+$fs16: 1.6rem;
+$fs18: 1.8rem;
+$fs20: 2.0rem;
+$fs21: 2.1rem;
+$fs22: 2.2rem;
+$fs24: 2.4rem;
+$fs26: 2.6rem;
+$fs28: 2.8rem;
+$fs30: 3.0rem;
+$fs32: 3.2rem;

@@ -1,0 +1,273 @@
+@charset "UTF-8";
+                             /*
+$sprites: sprite-map("sprites/*.png");
+$sprites-img:sprite-url($sprites);
+
+@mixin sprite-background($name) {
+background-image: $sprites;
+background-repeat: no-repeat;
+overflow: hidden;
+content: "";
+position: absolute;
+display: block;
+height: image-height(sprite-file($sprites, $name)) / 2;
+width: image-width(sprite-file($sprites, $name)) / 2;
+$ypos: round(nth(sprite-position($sprites, $name), 2) / 2);
+background-position: 0 $ypos;
+@include background-size(39px auto);
+}
+
+@mixin sprite-background-ajust($name) {
+background-image: $sprites;
+background-repeat: no-repeat;
+$ypos: round(nth(sprite-position($sprites, $name), 2) / 2);
+background-position: 0 $ypos;
+@include background-size(39px auto);
+}
+
+*/
+/* ===========================================================
+
+   [Setting] 
+
+=========================================================== */
+/* -----------------------------------------------------------
+    01. Default Style Reset
+----------------------------------------------------------- */
+html, body,
+div, span,
+object, iframe,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+a, abbr, acronym, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, strong, sub, sup, tt, var,
+ul, ol, li, dl, dt, dd,
+form, fieldset, legend, label,
+table, caption, tbody, tfoot, thead, tr, th, td,
+header, main, nav, footer, section {
+  margin: 0;
+  padding: 0;
+}
+
+header, nav, footer {
+  display: block;
+}
+
+h1, h2, h3, h4, h5 {
+  font-size: 100%;
+  font-weight: bold;
+}
+
+img {
+  border: none;
+  vertical-align: bottom;
+}
+
+em,
+strong {
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+}
+
+table {
+  border: none;
+  border-spacing: 0;
+  font-size: 100%;
+}
+
+th,
+td {
+  border: none;
+  border-spacing: 0;
+  vertical-align: top;
+}
+
+caption,
+th {
+  font-weight: normal;
+  text-align: left;
+}
+
+ul,
+ol,
+dl {
+  list-style: none;
+}
+
+input,
+select,
+textarea {
+  vertical-align: middle;
+}
+
+hr {
+  display: none;
+}
+
+/* -----------------------------------------------------------
+    02. Basic Style
+----------------------------------------------------------- */
+html {
+  font-size: 100%;
+  overflow-y: scroll;
+}
+
+body {
+  color: #333333;
+  font-size: 14px;
+  font-size: 0.875rem;
+  overflow: hidden;
+}
+
+body,
+input,
+select,
+button,
+textarea {
+  font-family: "メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+}
+
+a:link {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #660066;
+  text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #0099cc;
+  text-decoration: underline;
+}
+
+p, ul li, ol li, dl dt, dl dd,
+caption, th, td,
+input, option, textarea {
+  line-height: 1.5;
+}
+
+p, ul, ol, dl, table {
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}
+
+li p,
+li ul,
+li ol {
+  margin-bottom: 0;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-weight: bold;
+}
+
+small {
+  font-size: 0.83em;
+}
+
+input[type="checkbox"]:checked + * {
+  opacity: 0.7;
+  background-color: #ffffff;
+}
+
+/* ===========================================================
+
+   [Layout] 
+
+=========================================================== */
+/* -----------------------------------------------------------
+    01. Structure
+----------------------------------------------------------- */
+/* ===========================================================
+
+   [header] 
+
+=========================================================== */
+/* ===========================================================
+
+   Footer 
+
+=========================================================== */
+/* -----------------------------------------------------------
+    01. Default Style Reset
+----------------------------------------------------------- */
+/* ===========================================================
+
+   [Modules] 
+
+=========================================================== */
+/* -----------------------------------------------------------
+    01. Headings
+----------------------------------------------------------- */
+/* -----------------------------------------------------------
+    02. Template
+----------------------------------------------------------- */
+/* -----------------------------------------------------------
+    03. List
+----------------------------------------------------------- */
+/* -----------------------------------------------------------
+    04. Toggle and Accordion
+----------------------------------------------------------- */
+/* -----------------------------------------------------------
+    04. Table
+----------------------------------------------------------- */
+/* -----------------------------------------------------------
+    06. Image
+----------------------------------------------------------- */
+/* -----------------------------------------------------------
+    07. Text
+----------------------------------------------------------- */
+/* -----------------------------------------------------------
+    08. Ajust
+----------------------------------------------------------- */
+.mod-mb-non {
+  margin-bottom: 0 !important;
+}
+
+.mod-mb-5 {
+  margin-bottom: 5px !important;
+}
+
+.mod-mb-10 {
+  margin-bottom: 10px !important;
+}
+
+.mod-mb-20 {
+  margin-bottom: 20px !important;
+}
+
+.mod-pd-non {
+  padding: 0 !important;
+}
+
+.align-L {
+  text-align: left !important;
+}
+
+.align-C {
+  text-align: center !important;
+}
+
+.align-R {
+  text-align: right !important;
+}
+
+.align-T {
+  vertical-align: top !important;
+}
+
+.align-M {
+  vertical-align: middle !important;
+}
+
+.align-B {
+  vertical-align: bottom !important;
+}

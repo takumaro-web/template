@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+//////////////////////////////////////////////
+//All Color
+//////////////////////////////////////////////
+
+$text:#333333;
+$gray1:#f2f2f2;
+$gray2:#e6e6e6;
+$gray3:#bcbcbc;
+$gray4:#676767;
+$orange:#f18800;
+$deepskyblue:#5786da;
+$darkcyan:#1f7ea0;
+$black:#272727;
+$red:#c70017;
+$aliceblue:#f0f6ff;
+$mediumblue:#13449d;
+$blue:#1052cb;
+$yellow:#ffe50d;
+$orange1:#c59400;
+$orange2:#cc731d;
+$gold:#ffcc0d;
+$lightseagreen:#249dae;
+$midnightblue:#001b4b;
+$bgColor:#000;
+$fgColor:#fff;
+
+//////////////////////////////////////////////
+//Main Color
+//////////////////////////////////////////////
+
+$primaryColor:$mediumblue;
+$linkColor:$midnightblue;
+$linkColorVisited:#667693;
+$linkColorHover:#e40000;
+$attnColor:#e40000;
+
+//////////////////////////////////////////////
+//Grid
+//////////////////////////////////////////////
+
+$main-grid-01: 600/960*100%;
+$main-grid-02: 20/960*100%;
+$main-grid-03: 340/960*100%;
+$main-grid-col03: 310/960*100%;
+$main-grid-col03m: 15/960*100%;
